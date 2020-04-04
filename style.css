@@ -37,11 +37,12 @@ background-color {
 .card {
   background-color: white;
   width:300px;
-  margin: 40;
+  margin: 35;
   border-radius: 10px;
-  padding: 50px;
+  padding: 22px;
   box-shadow: 10px;
 }
+
 /*titres et body*/
 h1 {
   color: #DD5555;
@@ -67,8 +68,7 @@ p {
 }
 
 body {
-  background-color: rgb(30, 120, 120);
-
+  background-color: #FFECD7;
   text-align: center;
 }
 
@@ -76,7 +76,7 @@ body {
 
  a:hover {
   color: red;
-  text-decoration: underline;
+  text-decoration: none;
   }
  a {
   color: grey;
@@ -98,17 +98,22 @@ body {
 .jigsaw1, .jigsaw2 {
   width: 30em;
   height: 30em;
-  margin: 8px;
+  margin: 20px;
   position: relative;
   -webkit-border-radius: .5em;
   -moz-border-radius: .5em;
   border-radius: .5em;
   cursor: pointer;
-}
 
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 0 10px 10px;
+}
+.first-card,
 .jigsaw1,
-.jigsaw1 span {
- background-color: white;
+.jigsaw1 span,
+.jigsaw1, .jigsaw .r, .jigsaw.t {
+  background-color: #FFD7D7;
 }
 
 .jigsaw2,
@@ -157,7 +162,7 @@ body {
   -webkit-border-radius: 4em;
   -moz-border-radius: 4em;
   border-radius: 4em;
-  background-color: rgb(30, 120, 120);
+  background-color: #FFECD7;
 }
 
 .jigsaw1 .l, .jigsaw2 .l {
@@ -169,5 +174,16 @@ body {
   -webkit-border-radius: 4em;
   -moz-border-radius: 4em;
   border-radius: 4em;
-  background-color: rgb(30, 120, 120);
+  background-color: #FFECD7;
+}
+
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
 }
