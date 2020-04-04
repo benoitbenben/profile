@@ -90,7 +90,7 @@ body {
   color: rgb(150, 150, 150);
 }
 .list-inline {
-  padding-left: 0px;
+  padding-left: 20px;
   align-content: justify;
 }
 
