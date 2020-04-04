@@ -2,8 +2,8 @@ background-color {
  color: yellow;
 }
 .container {
-  width: 500px;   /* This sets the width */
-  margin: 100px auto; /* This automatically sets left/right margins */
+  width:600px;   /* This sets the width */
+  margin: 10px auto; /* This automatically sets left/right margins */
   background-color: rgb(30, 120, 120);
   box-shadow:3px ;
     }
@@ -31,6 +31,7 @@ background-color {
 }
 .img {
   border-radius: 3px;
+  padding-left: 5px;
 }
 
 .card {
@@ -39,7 +40,7 @@ background-color {
   margin: 20;
   border-radius: 10px;
   padding: 30px;
-  box-shadow: 10px ;
+  box-shadow: 10px;
 }
 /*titres et body*/
 h1 {
