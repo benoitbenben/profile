@@ -4,7 +4,6 @@ background-color {
 .container {
   width:600px;   /* This sets the width */
   margin: 10px auto; /* This automatically sets left/right margins */
-  background-color: rgb(30, 120, 120);
   box-shadow:3px ;
     }
 @media (max-width: 960px) {
@@ -68,9 +67,9 @@ p {
 
 body {
   background-color: rgb(30, 120, 120);
+
   text-align: center;
 }
-
 
 /* link*/
 
