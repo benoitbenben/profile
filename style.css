@@ -31,27 +31,28 @@ background-color {
 .img {
   border-radius: 3px;
   padding-left: 5px;
+  padding-top: 20px;
 }
 
 .card {
   background-color: white;
   width:300px;
-  margin: 20;
+  margin: 40;
   border-radius: 10px;
-  padding: 30px;
+  padding: 50px;
   box-shadow: 10px;
 }
 /*titres et body*/
 h1 {
   color: #DD5555;
-  font-size: 22px ;
+  font-size: justify ;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
 h2 {
   color: rgb(30,30,30);
-  font-size: 20px ;
+  font-size: justify ;
   font-family: 'Arial', sans-serif;
   font-style: bold;
   text-align: center;
@@ -59,7 +60,7 @@ h2 {
 
 p {
   color: rgb(30,30,30);
-  font-size: 14px ;
+  font-size: justify ;
   font-family: 'Comic ', sans-serif;
   font-style: bold;
   text-align: center;
@@ -89,7 +90,84 @@ body {
   color: rgb(150, 150, 150);
 }
 .list-inline {
-  padding-left: 0px;
+  padding-left: 5px;
+   padding-top: 60px;
   align-content: justify;
 }
 
+.jigsaw1, .jigsaw2 {
+  width: 30em;
+  height: 30em;
+  margin: 8px;
+  position: relative;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  cursor: pointer;
+}
+
+.jigsaw1,
+.jigsaw1 span {
+ background-color: white;
+}
+
+.jigsaw2,
+.jigsaw2 span {
+ background-color: white;
+}
+
+.text {
+  display: block;
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 1.9em 0 0 1.2em;
+  position: relative;
+  background: transparent !important;
+}
+
+.jigsaw1 .t, .jigsaw2 .t {
+ width: 6em;
+  height: 6em;
+  position: absolute;
+  top: -5.5em;
+  left: 12em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+}
+
+.jigsaw1 .r, .jigsaw2 .r {
+ width: 6em;
+  height: 6em;
+  position: absolute;
+  top: 12em;
+  left: 29em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+}
+
+.jigsaw1 .b, .jigsaw2 .b {
+ width: 6em;
+  height: 6em;
+  position: absolute;
+  top: 25em;
+  left: 12em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+  background-color: rgb(30, 120, 120);
+}
+
+.jigsaw1 .l, .jigsaw2 .l {
+ width: 6em;
+  height: 6em;
+  position: absolute;
+  top: 12em;
+  left: -1.4em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+  background-color: rgb(30, 120, 120);
+}
