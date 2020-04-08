@@ -32,7 +32,7 @@
 }
 
 .card {
-  background-color: white;
+
   width: 300px;
   margin: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -51,7 +51,7 @@
 }
 
 /*titres et body*/
-h1 {
+/*h1 {
   color: #DD5555;
   font-size: 22px ;
   font-family: 'Montserrat', sans-serif;
@@ -77,10 +77,10 @@ p {
   font-family: 'Comic ', sans-serif;
   font-style: bold;
   text-align: center;
-}
+}*/
 
 body {
-  background: #fdfdfd;
+ /* background: #fdfdfd;*/
   text-align: center;
   position: relative;
   z-index: 1;
@@ -179,6 +179,7 @@ zz
 
 h1, h2, h3, h4, h6, p, hr {
     margin: 0;
+    padding-bottom: 16px;s
     font-size: 14px;
     box-shadow: none;
     border: none;
@@ -238,7 +239,7 @@ header, main {
 
 .light-theme {
     --bg-color: hsl(0, 0%, 100%);
-    --top-bg-pattern: hsl(225, 100%, 98%);
+    --top-bg-pattern: hsl(225, 100%, 100%);
     --card-bg: hsl(227, 47%, 96%);
     --text-1: hsl(228, 12%, 44%);
     --text-2: hsl(230, 17%, 14%);
