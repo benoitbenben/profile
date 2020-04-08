@@ -3,26 +3,48 @@
   <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" type="text/css" href="./css/style.css">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
       <title>Benoît Web Developper</title>
   </head>
-  <body>
-    <div class="container">
+  <body  class="light-theme">
+    <div class="header--background"></div>
+    <header>
+      <div class="subtitle-container">
+        <div>
+          <h1>Benoît Web Developper</h1>
+        </div>
+        <hr>
+        <div id="toggle-container">
+          <h3 class="bold-text">Dark Mode</h2>
+          <div id="toggle">
+            <div id="toggle--cursor"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+    <!-- <div class="container">
       <h1>Benoît Web Developper</h1>
+      <hr> -->
+
       <div class="cards">
 
-
         <div class="card zoom">
-          <h2> Progammer Designer Dreamer Creator
+          <h3> Progammer Designer Dreamer Creator</h3>
             <div class="card--avatar">
               <img class="card--avatar" src="./images/imageben.jpg" alt="Mon profil" width=100 >
             </div>
         </div>
 
         <div class="card zoom">
+           <h3>Skills</h3>
           <div class="row">
-             <h2>Skills</h2>
+
              <img src="./images/trio.png" alt="trio.png" width=230 class="img">
           </div>
 
@@ -34,7 +56,7 @@
         </div>
 
         <div class="card zoom">
-          <h2>Some project</h2>
+          <h3>Some project</h3>
             <a href="https://tm.bamboolover.me">
               <img src="./images/rouage-1.png" alt="rouage-1.png" width=120 class="img">
               <p>༼ The Mungkul ༽</p>
@@ -44,7 +66,7 @@
 
 
        <div class="card zoom">
-          <h2>Some project</h2>
+          <h3>Some project</h3>
             <a href="https://hv.bamboolover.me">
               <img src="./images/rouage-2.png" alt="rouage-2.png" width=120 class="img">
               <p>༼ Hidden Valley ༽</p>
@@ -79,20 +101,22 @@
         </div>
 
         <div class="card zoom">
-          <div class="flip-box">
+           <h3>More About</h3>
+           <br>
+           <div class="flip-box">
             <div class="flip-box-inner">
               <div class="flip-box-front">
-                <h2>More About</h2>
+
                    <p>This page was developped with ⓛⓞⓥⓔ during the full stack program.</p>
-                   <img src="./images/logo-lewagon.png" alt="logo-wagon" height=40> <br>batch#139</p>
+                   <img src="./images/logo-lewagon.png" alt="logo-wagon" height=40> <br><p>batch#139</p>
 
               </div>
 
                 <div class="flip-box-back">
-                  <h2>Contact Me</h2>
+
                   <ul>
-                    <li><img src="./images/contact.png" alt="contact-me" height="100px" ></li>
-                    <li><p>༻ Update 1st quarter 2020 ༺</p></li>
+                    <img src="./images/contact.png" alt="contact-me" height="100px" >
+                    <p>༻ Update 1st quarter 2020 ༺</p>
                   </ul>
                 </div>
             </div>
@@ -101,7 +125,8 @@
 
       </div>
     </div>
-
+  </main>
+  <script type="text/javascript" src="./script/script.js"></script>
   </body>
 
    <footer>
