@@ -178,12 +178,13 @@ zz
 
 
 h1, h2, h3, h4, h6, p, hr {
-    margin: 0;
+    margin-right: 15;
     padding-bottom: 16px;s
     font-size: 14px;
     box-shadow: none;
     border: none;
 }
+
 
 hr {
     border-bottom: 1.5px solid var(--text-1);
@@ -258,6 +259,12 @@ header, main {
 h1 {
     font-size: 1.6rem;
     color: var(--text-2);
+}
+h3 {
+    color: var(--text-1);
+}
+p {
+  color: var(--text-1);
 }
 
 main .card-container:first-child {
@@ -449,8 +456,9 @@ main .card-container:first-child {
 
 .attribution {
     font-size: 11px;
-    text-align: center;
+    text-align: right;
     position: absolute;
+    margin: 20px;
     bottom: 0;
     left: 0;
     right: 0;
